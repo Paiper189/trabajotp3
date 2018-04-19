@@ -11,6 +11,10 @@ package Punto1.dominio;
  */
 public class Punto {
 
+    public Punto() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
    
 
     /**
@@ -53,4 +57,8 @@ public double calcularDistancia (Punto a, Punto b){
     return Math.sqrt( Math.pow(b.getX()-a.getX(),2) + Math.pow (a.getY() - b.getY(),2));
        
 }      
+
+    public void mostrarPunto() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
