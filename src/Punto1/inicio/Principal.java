@@ -5,7 +5,7 @@
  */
 package Punto1.inicio;
 
-import Punto2.dominio.Punto;
+import Punto1.dominio.Punto;
 
 
 
@@ -17,7 +17,7 @@ public class Principal {
      public static void main(String[] args) {
         // TODO code application logic here
         Punto punto1 = new Punto (2,3);
-        Punto punto2 = new Punto (4,6);
+        Punto punto2 = new Punto (2,3);
         
         System.out.println("Distancia entre los objetos:"+punto1.calcularDistancia(punto1,punto2));
         
